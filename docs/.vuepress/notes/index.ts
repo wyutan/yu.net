@@ -16,6 +16,7 @@ export default defineNotesConfig({
     template,
     linux,
     docker,
+    yaml,
     about,
   ]
 })
