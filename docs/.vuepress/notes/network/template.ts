@@ -9,8 +9,8 @@ export default defineNoteConfig({
       prefix: '/network/template',
       text: '模板',
       items: [
-        'hw_ce系列',
-        'hw_s系列',
+        'hw_ce',
+        'hw_s',
         'h3c',
           ]
     },  
