@@ -1,27 +1,11 @@
 import { defineNoteConfig } from 'vuepress-theme-plume'
 
 export default defineNoteConfig({
-  text: '网络',
-  dir: '/network',
+  dir: 'network',
   link: '/network/',
   sidebar: [
-    {
-      prefix: '/network',
-      text: '网络',
-      items: [
-        {
-          prefix: 'protocol',
-          text: '协议',
-          collapsed: false,
-          items: 'auto',
-        },
-        {
-          prefix: 'template',
-          text: '模板',
-          collapsed: false,
-          items: 'auto',
-        },
-      ],
-    },    
-  ]  
+      { text: '网络', link: '/network/' },
+      { text: '模板', prefix: 'template', collapsed: false, items: 'auto',},
+      { text: '协议', prefix: 'protocol', collapsed: false, items: 'auto',},
+  ] 
 })
