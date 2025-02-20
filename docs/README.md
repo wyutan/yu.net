@@ -7,7 +7,7 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: 来这
+      name: 在这
       tagline: 是星辰，是雨雾，是闪电，是不羁的灵魂
       text: 
       actions:
