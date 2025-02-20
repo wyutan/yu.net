@@ -11,7 +11,7 @@ export default defineThemeConfig({
   appearance: true,  // 配置 深色模式
 
   social: [
-    { icon: 'gmail', link: 'mailto:wyu.tan99@gmail.com' },
+    { icon: 'mail', link: 'mailto:wyu.tan99@gmail.com' },
     // { icon: 'github', link: '/' },
   ],
   // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
