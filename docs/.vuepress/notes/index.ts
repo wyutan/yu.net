@@ -7,7 +7,8 @@ export default defineNotesConfig({
   dir: '/',
   link: '/',
   // 在这里添加 note 配置
-  notes: [ 
+  notes: [
+    协议,
     模板,
     about,
   ]
