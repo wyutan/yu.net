@@ -31,28 +31,6 @@ export default defineNoteConfig({
     },
   ],
 })
-
-export default defineNoteConfig({
-  text: 'linux',
-  dir: '/os/linux',
-  link: '/os/linux',
-  sidebar: [
-    {
-      prefix: '/os/linux',
-      text: 'linux',
-      items: [
-        {
-          text: 'Command', 
-          link: '/os/linux/command', // 链接到命令页面
-          items: [
-            {
-              text: 'Vim', // vim.md 对应的标题
-              link: '/os/linux/command/vim.md' // vim.md 文件的路径
-            },
-          ]
-        },
-
-      ]
     },
   ],
 })
