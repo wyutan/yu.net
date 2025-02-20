@@ -9,6 +9,7 @@ export default defineNoteConfig({
       prefix: '/os/linux',
       text: 'linux',
       items: [
+        { text: 'Test', link: 'test.md', }        
         {
           text: '命令', 
           link: '/os/linux/command',
@@ -26,6 +27,31 @@ export default defineNoteConfig({
             { text: 'LVM创建及扩容', link: 'LVM.md' },
           ]
         },
+      ]
+    },
+  ],
+})
+
+export default defineNoteConfig({
+  text: 'linux',
+  dir: '/os/linux',
+  link: '/os/linux',
+  sidebar: [
+    {
+      prefix: '/os/linux',
+      text: 'linux',
+      items: [
+        {
+          text: 'Command', 
+          link: '/os/linux/command', // 链接到命令页面
+          items: [
+            {
+              text: 'Vim', // vim.md 对应的标题
+              link: '/os/linux/command/vim.md' // vim.md 文件的路径
+            },
+          ]
+        },
+
       ]
     },
   ],
