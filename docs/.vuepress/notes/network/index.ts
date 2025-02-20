@@ -1,7 +1,7 @@
 import { defineNoteConfig } from 'vuepress-theme-plume'
 
 export default defineNoteConfig({
-  text: '操作系统',
+  text: '网络',
   dir: '/network',
   link: '/network/',
   sidebar: [
