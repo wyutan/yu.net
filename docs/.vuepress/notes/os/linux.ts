@@ -12,7 +12,7 @@ export default defineNoteConfig({
         { text: '', link: '', },
         {
           text: '命令', 
-          link: '/os/linux/command',
+          prefix: '/os/linux/command',
           items: [
             { text: 'vim', link: 'vim.md' },
             { text: 'find', link: 'find.md' },
