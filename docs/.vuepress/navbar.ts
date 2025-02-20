@@ -18,7 +18,7 @@ export const navbar = defineNavbarConfig([
         text: '模板',
         icon: '',
         link: '/network/template/',
-      }
+      },
     ]
   },
   { text: '关于', icon: '',  link: '/about/' },
