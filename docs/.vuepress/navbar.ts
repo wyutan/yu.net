@@ -26,6 +26,7 @@ export const navbar = defineNavbarConfig([
     items: [
       { text: 'docker', icon: '', link: '/容器/docker/', },
     ]
-  },    
+  },
+  { text: '疑难杂症', icon: '',  link: '/疑难杂症/' },
   { text: '关于', icon: '',  link: '/about/' },
 ])
