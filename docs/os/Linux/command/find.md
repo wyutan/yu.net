@@ -1,0 +1,57 @@
+# find命令
+
+1. **按文件名查找**：
+   
+   ```
+   find /path/to/search -name "filename"
+   ```
+
+   在指定路径下搜索文件名为 "filename" 的文件。
+
+2. **按文件类型查找**：
+
+   ```
+   find /path/to/search -type f
+   ```
+
+   在指定路径下搜索普通文件。
+
+3. **按目录查找**：
+
+   ```
+   find /path/to/search -type d
+   ```
+
+   在指定路径下搜索目录。
+
+4. **按文件大小查找**：
+
+   ```
+   find /path/to/search -size +1M
+   ```
+
+   在指定路径下搜索大小大于1MB的文件。
+
+5. **按时间查找**：
+
+   ```
+   find /path/to/search -mtime -7
+   ```
+
+   在指定路径下搜索最近7天内修改过的文件。
+
+6. **按权限查找**：
+
+   ```
+   find /path/to/search -perm 644
+   ```
+
+   在指定路径下搜索权限为 644 的文件。
+
+7. **执行命令**：
+
+   ```
+   find /path/to/search -exec command {} \;
+   ```
+
+   在搜索到的每个文件上执行指定的命令。
