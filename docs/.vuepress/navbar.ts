@@ -27,7 +27,7 @@ export const navbar = defineNavbarConfig([
       { text: 'docker', icon: '', link: '/容器/docker/', },
     ]
   },
-  { text: 'yaml', icon: '',  link: '/yaml/' },
-  { text: '疑难杂症', icon: '',  link: '/疑难杂症/疑难杂症.md' },
-  { text: '关于', icon: '',  link: '/about/' },
+  { text: 'yaml', icon: '',  link: '/yaml/', },
+  { text: '疑难杂症', icon: '',  link: '/疑难杂症/疑难杂症.md', },
+  { text: '关于', icon: '',  link: '/about/', icon: 'clarity:heart-line',  },
 ])
