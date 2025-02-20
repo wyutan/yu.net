@@ -7,10 +7,10 @@ export default defineNoteConfig({
   sidebar: [
     {
       prefix: '/os/linux',
-      text: '',
+      text: 'linux',
       items: [ 
-        { text: 'command', link: '/command', sidebar: 'auto' },
-        { text: '常用', link: '/常用', sidebar: 'auto' },
+        '常用',
+        'command', 
       ]
     },  
   ],
