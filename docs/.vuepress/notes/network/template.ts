@@ -7,6 +7,7 @@ export default defineNoteConfig({
   sidebar: [
     {
       prefix: '/network/template',
+      text: '模板',
       items: [
         { text: '华为CE系列', link: 'hw_ce' },
         { text: '华为S系列', link: 'hw_s' },
