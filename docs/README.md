@@ -12,7 +12,11 @@ config:
       text: 
       actions:
         -
-          theme: alt
-          text: connection →
-          link: mailto:wyu.tan99@gmail.com
+          theme: brand
+          text: 网络 →
+          link: /network/
+        //-
+          //theme: alt
+          //text: connection →
+          //link: mailto:wyu.tan99@gmail.com
 ---
