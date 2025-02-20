@@ -5,7 +5,6 @@ export default defineNoteConfig({
   dir: '/network',
   link: '/network/',
   sidebar: [
-    '',
     {
       prefix: '/network',
       text: '网络',
