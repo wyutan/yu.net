@@ -6,13 +6,9 @@ export default defineNoteConfig({
   link: '/os/linux',
   sidebar: [
     {
-      prefix: '/os/linux',
-      text: 'Linux',
       items: [
-        '',
         {
           text: '常用',
-          icon: '',
           dir: '常用',
           collapsed: false,
           items: [
@@ -24,13 +20,9 @@ export default defineNoteConfig({
       ],
     },
     {
-      prefix: '/os/linux',
-      text: 'command',
       items: [
-        '',
         {
           text: '命令',
-          icon: '',
           dir: 'command',
           collapsed: false,
           items: [
