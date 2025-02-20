@@ -16,6 +16,7 @@ export default defineNotesConfig({
     template,
     linux,
     docker,
+    疑难杂症,
     about,
   ]
 })
