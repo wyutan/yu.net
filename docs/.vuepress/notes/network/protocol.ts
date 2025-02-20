@@ -7,7 +7,7 @@ export default defineNoteConfig({
   sidebar: [
     {
       prefix: '/network/protocol',
-      text: '协议',
+      text: '网络协议',
       items: [ 
         'bgp',
         'ospf', 
