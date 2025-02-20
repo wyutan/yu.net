@@ -1,0 +1,46 @@
+# sed命令
+
+1. **替换文本**：
+   
+   ```
+   sed s/old_text/new_text/g filename
+   ```
+
+   在文件中查找 `old_text` 并将其替换为 `new_text`。
+
+2. **删除行**：
+
+   ```
+   sed /pattern_to_delete/d filename
+   ```
+
+   删除包含匹配模式 `pattern_to_delete` 的行。
+
+3. **添加行**：
+
+   ```
+   sed 1i`/`New line filename
+   ```
+
+   在文件的第一行之前添加一个新行。
+
+4. **查找行**：
+
+   ```
+   sed -n /pattern_to_find/p filename
+   ```
+
+   查找并打印包含匹配模式 `pattern_to_find` 的行。
+
+5. **替换文本并保存到新文件**：
+
+   ```
+   sed s/old_text/new_text/g filename > new_filename
+   ```
+
+6. **在匹配内容行首添加`#`**:
+```
+sed /pattern_to_match/s/^/#/ filename
+```
+
+在文件中查找包含匹配模式 `pattern_to_match` 的行，并在这些行的行首添加 `#`。
