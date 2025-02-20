@@ -1,6 +1,6 @@
 import { defineNotesConfig } from 'vuepress-theme-plume'
-import protocol from './network/protocol.ts'
-import template from './network/template.ts'
+import 协议 from './network/protocol.ts'
+import 模板 from './network/template.ts'
 import about from './about'
 
 export default defineNotesConfig({
@@ -9,8 +9,8 @@ export default defineNotesConfig({
   link: '/',
   // 在这里添加 note 配置
   notes: [
-    protocol,
-    template,
+    协议,
+    模板,
     about,
   ]
 })
