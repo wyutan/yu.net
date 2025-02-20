@@ -9,17 +9,16 @@ export const navbar = defineNavbarConfig([
     text: '网络',
     icon: '',
     items: [
-      {
-        text: '协议',
-        icon: '',
-        link: '/network/protocol/',
-      },
-      {
-        text: '模板',
-        icon: '',
-        link: '/network/template/',
-      },
+      { text: '协议', icon: '', link: '/network/protocol/', },
+      { text: '模板', icon: '', link: '/network/template/', },
     ]
   },
+  {
+    text: 'os',
+    icon: '',
+    items: [
+      { text: 'linux', icon: '', link: '/os/linux/', },
+    ]
+  },  
   { text: '关于', icon: '',  link: '/about/' },
 ])
