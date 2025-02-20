@@ -46,7 +46,7 @@ export default defineUserConfig({
     // },
 
     /* 博客文章页面链接前缀 */
-    article: '/article/',
+    // article: '/article/',
 
     /**
      * 编译缓存，加快编译速度
@@ -69,13 +69,14 @@ export default defineUserConfig({
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
        */
-      // shiki: {
+      shiki: {
       //   // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
+        languages: ['shell', 'bash', 'typescript', 'javascript', 'yml', 'yaml', 'py',],
       //   languages: ['shell', 'bash', 'typescript', 'javascript'],
       //   twoslash: true, // 启用 twoslash
       //   whitespace: true, // 启用 空格/Tab 高亮
       //   lineNumbers: true, // 启用行号
-      // },
+      },
 
       /* 本地搜索, 默认启用 */
       // search: true,
@@ -109,7 +110,8 @@ export default defineUserConfig({
        *  markdown power
        * @see https://theme-plume.vuejs.press/config/plugin/markdown-power/
        */
-      // markdownPower: {
+      markdownPower: {
+        demo: true, 
       //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
       //   caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
       //   plot: true,         // 启用隐秘文本语法 !!xxxx!!
@@ -128,7 +130,7 @@ export default defineUserConfig({
       //     go: true,         // ::: go-repl
       //     rust: true,       // ::: rust-repl
       //     kotlin: true,     // ::: kotlin-repl
-      //   },
+      },
       //   imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
       // },
 
