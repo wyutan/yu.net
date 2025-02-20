@@ -3,10 +3,10 @@ import { defineNoteConfig } from 'vuepress-theme-plume'
 export default defineNoteConfig({
   text: 'yaml',
   dir: '/yaml/',
-  link: '/network/',
+  link: '/yaml/',
   sidebar: [
     {
-      prefix: '/network/',
+      prefix: '/yaml/',
       items: [
         { text: 'mysql', link: 'mysql' },
         { text: 'zabbix', link: 'zabbix' },
