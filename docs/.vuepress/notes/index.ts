@@ -3,7 +3,6 @@ import protocol from './network/protocol.ts'
 import template from './network/template.ts'
 import linux from './os/linux.ts'
 import docker from './容器/docker.ts'
-import 疑难杂症 from './疑难杂症'
 import about from './about'
 
 export default defineNotesConfig({
@@ -16,7 +15,6 @@ export default defineNotesConfig({
     template,
     linux,
     docker,
-    疑难杂症,
     about,
   ]
 })
