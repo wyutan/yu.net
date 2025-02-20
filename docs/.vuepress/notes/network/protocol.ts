@@ -1,10 +1,17 @@
 import { defineNoteConfig } from 'vuepress-theme-plume'
 
 export default defineNoteConfig({
+  text: '协议',
   dir: '/network/protocol',
-  link: '/network/protocol/',
+  link: '/network/protocol',
   sidebar: [
-    'bgp',
-    'ospf'
-  ]
-});
+    {
+      prefix: '/network/protocol',
+      text: '协议',
+      items: [ 
+        'bgp',
+        'ospf', 
+      ]
+    },  
+  ],
+})
