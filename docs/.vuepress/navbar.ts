@@ -13,7 +13,7 @@ export const navbar = defineNavbarConfig([
         text: '协议',
         icon: '',
         link: '/network/protocol/',
-      }
+      },
       {
         text: '模板',
         icon: '',
