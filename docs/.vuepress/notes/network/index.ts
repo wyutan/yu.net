@@ -6,7 +6,7 @@ export default defineNotesConfig({
   dir: '/network',
   link: '/network/',
   notes: [
-    protocol,
-    template,
+    协议,
+    模板,
   ]
 })
