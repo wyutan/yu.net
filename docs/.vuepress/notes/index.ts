@@ -1,6 +1,7 @@
 import { defineNotesConfig } from 'vuepress-theme-plume'
 import protocol from './network/protocol.ts'
 import template from './network/template.ts'
+import linux from './os/linux.ts'
 import about from './about'
 
 export default defineNotesConfig({
@@ -11,6 +12,7 @@ export default defineNotesConfig({
   notes: [
     protocol,
     template,
+    linux,
     about,
   ]
 })
