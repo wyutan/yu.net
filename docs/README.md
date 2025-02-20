@@ -9,7 +9,7 @@ config:
     hero:
       name: 来这
       tagline: 是星辰，是雨雾，是闪电
-      text: 
+      text: 是不羁的灵魂
       actions:
         -
           theme: brand
