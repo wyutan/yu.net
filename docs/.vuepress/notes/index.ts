@@ -9,8 +9,8 @@ export default defineNotesConfig({
   link: '/',
   // 在这里添加 note 配置
   notes: [
-    协议,
-    模板,
+    protocol,
+    template,
     about,
   ]
 })
