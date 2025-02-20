@@ -9,9 +9,9 @@ export default defineNoteConfig({
       prefix: '/network/template',
       text: '模板',
       items: [
-        { text: '华为CE系列', link: '/network/template/hw_ce' },
-        { text: '华为S系列', link: '/network/template/hw_s' },
-        { text: 'h3c', link: '/network/template/h3c' },
+        { text: '华为CE系列', link: 'hw_ce' },
+        { text: '华为S系列', link: 'hw_s' },
+        { text: 'h3c', link: 'h3c' },
        ]
     },  
   ],
