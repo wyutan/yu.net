@@ -1,11 +1,12 @@
 import { defineNoteConfig } from 'vuepress-theme-plume'
+import protocol from './network/protocol.ts'
+import template from './network/template.ts'
 
-export default defineNoteConfig({
-  dir: 'network',
+export default defineNotesConfig({
+  dir: '/network',
   link: '/network/',
-  sidebar: [
-      { text: '网络', link: '/network/' },
-      { text: '模板', prefix: 'template', collapsed: false, items: 'auto',},
-      { text: '协议', prefix: 'protocol', collapsed: false, items: 'auto',},
-  ] 
+  notes: [
+    protocol,
+    template,
+  ]
 })
