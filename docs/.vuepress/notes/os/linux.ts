@@ -9,7 +9,7 @@ export default defineNoteConfig({
       prefix: '/os/linux',
       text: 'linux',
       items: [
-        { text: 'Test', link: 'test.md', }        
+        { text: 'Test', link: 'test.md', },
         {
           text: '命令', 
           link: '/os/linux/command',
