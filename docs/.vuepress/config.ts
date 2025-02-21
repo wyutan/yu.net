@@ -66,13 +66,11 @@ export default defineUserConfig({
     // },
 
     plugins: {
-      [
       searchPro:
         {
           searchMaxSuggestions: 10,  // 设置每次搜索最多返回的结果数
           // 其他的配置选项，如高亮、搜索历史、关键词等
         },
-      ],
       //docsearch:{
 
       //},
