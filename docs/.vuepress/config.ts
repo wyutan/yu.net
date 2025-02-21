@@ -65,7 +65,7 @@ export default defineUserConfig({
     // },
 
     plugins: {
-      search:{
+      docsearch:{
 
       },
       'vuepress-plugin-iconify': {
