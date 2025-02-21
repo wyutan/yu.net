@@ -1,4 +1,3 @@
-# BGP
 ## BGP的四种报文
 1. **open message**：
 	- 在TCP连接建立后产生
