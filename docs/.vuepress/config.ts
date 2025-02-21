@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import { vuepressPluginSearch } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   base: '/',
@@ -69,6 +70,13 @@ export default defineUserConfig({
         size: '24px',  // 图标的默认大小
         color: '#42b983',  // 图标的默认颜色
       },
+      vuepressPluginSearch({
+          // 这里设置搜索选项，确保包含所有需要的目录
+        maxSuggestions: 10,
+        placeholder: 'Search...',
+          // 配置应该扫描整个站点，而不仅仅是特定目录
+        searchPaths: ['/'], // 这里指定从根目录开始搜索所有内容
+      }),
       /**
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
