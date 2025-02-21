@@ -65,6 +65,10 @@ export default defineUserConfig({
     // },
 
     plugins: {
+      'vuepress-plugin-iconify': {
+        size: '24px',  // 图标的默认大小
+        color: '#42b983',  // 图标的默认颜色
+      },
       /**
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
