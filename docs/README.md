@@ -15,6 +15,11 @@ config:
           theme: brand
           text: 网络 →
           link: /network/
+        -
+          theme: brand
+          text: linux →
+          link: /os/linux/
+          
         #-
           #theme: alt
           #text: connection →
