@@ -7,7 +7,7 @@ export default defineNoteConfig({
   sidebar: [
     {
       prefix: '/容器/docker',
-      text: '',
+      text: 'docker',
       items: [ 
         { text: 'docker参数修改', link: 'docker参数' },
         { text: 'docker配置GPU', link: 'docker配置GPU' },
