@@ -66,7 +66,7 @@ export default defineUserConfig({
     // },
 
     plugins: {
-      '@vuepress/plugin-search',
+      '@vuepress/plugin-search':{},
       //docsearch:{
 
       //},
