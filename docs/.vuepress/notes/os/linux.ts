@@ -7,8 +7,8 @@ export default defineNoteConfig({
   link: '/os/linux',
   sidebar: [
     {
-      prefix: '/os/linux',
-      text: 'linux',
+      //prefix: '/os/linux',
+      //text: 'linux',
       items: [
         { text: '', link: '', },
         {
