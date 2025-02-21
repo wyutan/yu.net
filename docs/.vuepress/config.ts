@@ -65,9 +65,11 @@ export default defineUserConfig({
     // },
 
     plugins: {
-      //docsearch:{
-
-      //},
+      docsearch:{
+        appId: '6L622T2ZNM',
+        apiKey: '4bf71d5515c62560f7fc8da2c2936688',
+        indexName: 'git-x-cli',
+      },
       'vuepress-plugin-iconify': {
         size: '24px',  // 图标的默认大小
         color: '#42b983',  // 图标的默认颜色
