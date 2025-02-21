@@ -1,7 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
-import { searchPlugin } from '@vuepress-plume/plugin-search'
+import searchPro from 'vuepress-plugin-search-pro'
 
 export default defineUserConfig({
   base: '/',
@@ -66,7 +66,13 @@ export default defineUserConfig({
     // },
 
     plugins: {
-      '@vuepress/plugin-search':{},
+      [
+      searchPro,
+        {
+          searchMaxSuggestions: 10,  // 设置每次搜索最多返回的结果数
+          // 其他的配置选项，如高亮、搜索历史、关键词等
+        },
+      ],
       //docsearch:{
 
       //},
