@@ -1,4 +1,5 @@
 import { defineThemeConfig } from 'vuepress-theme-plume'
+import { vuepressPluginIconify } from 'vuepress-plugin-iconify';
 import { navbar } from './navbar'
 import notes from './notes/index.ts'
 
