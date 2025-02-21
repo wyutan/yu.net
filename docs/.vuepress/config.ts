@@ -65,28 +65,6 @@ export default defineUserConfig({
     // },
 
     plugins: {
-      search: {
-        locales: {
-          '/zh/': {
-            placeholder: '搜索...',
-            buttonText: '搜索',
-            resetButtonTitle: '重置',
-            backButtonTitle: '返回',
-            noResultsText: '没有找到结果',
-            footer: {
-              selectText: '选择',
-              selectKeyAriaLabel: '选择快捷键',
-              navigateText: '导航',
-              navigateUpKeyAriaLabel: '上',
-              navigateDownKeyAriaLabel: '下',
-              closeText: '关闭',
-              closeKeyAriaLabel: '关闭快捷键',
-            }
-          },
-        },
-        isSearchable: () => true // 所有页面都可以搜索
-        //return page.path !== '/network/protocol/ospf.md' //排除ospf.md
-      },
       //docsearch:{
 
       //},
