@@ -11,6 +11,7 @@ export default defineNoteConfig({
       items: [ 
         'bgp',
         'ospf', 
+        'stp',
       ]
     },  
   ],
