@@ -17,14 +17,14 @@ export const navbar = defineNavbarConfig([
     text: 'os',
     icon: '',
     items: [
-      { text: 'linux', icon: '', link: '/os/linux/', },
+      { text: 'linux', icon: 'skill-icons:linux-light', link: '/os/linux/', },
     ]
   }, 
   {
     text: '容器',
     icon: '',
     items: [
-      { text: 'docker', icon: '', link: '/容器/docker/', },
+      { text: 'docker', icon: 'logos:docker-icon', link: '/容器/docker/', },
     ]
   },
   { text: 'yaml', icon: '',  link: '/yaml/', },
