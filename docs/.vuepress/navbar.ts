@@ -7,7 +7,7 @@ export const navbar = defineNavbarConfig([
   //{ text: '归档', link: '/blog/archives/' },
   {
     text: '网络',
-    icon: '',
+    icon: 'lucide:network',
     items: [
       { text: '协议', icon: '', link: '/network/protocol/', },
       { text: '模板', icon: '', link: '/network/template/', },
