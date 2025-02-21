@@ -1,10 +1,11 @@
+转自[探索云原生](https://www.cnblogs.com/KubeExplorer/p/18531449)
 ## 安装 nvidia-container-toolkit
 
 NVIDIA Container Toolkit 的主要作用是将 NVIDIA GPU 设备挂载到容器中。
 
 兼容生态系统中的任意容器运行时，docker、containerd、cri-o 等。
 
-NVIDIA 官方安装文档：nvidia-container-toolkit-install-guide(https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
+NVIDIA 官方安装文档：[nvidia-container-toolkit-install-guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
 
 对于 Ubuntu 系统，安装命令如下：
 ```
@@ -26,7 +27,7 @@ sudo apt-get install -y nvidia-container-toolkit
 ## 配置使用该 runtime
 支持 Docker, Containerd, CRI-O, Podman 等 CRI。
 
-具体见官方文档 container-toolkit#install-guide(https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#configuration)
+具体见官方文档 [container-toolkit#install-guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#configuration)
 
 这里以 Docker 为例进行配置：
 
