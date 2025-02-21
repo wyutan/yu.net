@@ -7,6 +7,7 @@ export default defineNoteConfig({
   sidebar: [
     {
       prefix: '/yaml',
+      text: 'yaml',
       items: [
         { text: 'mysql', link: 'mysql', },
         { text: 'zabbix', link: 'zabbix', },
@@ -14,3 +15,4 @@ export default defineNoteConfig({
     },  
   ],
 })
+
