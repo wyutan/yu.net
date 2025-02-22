@@ -91,8 +91,8 @@ export default defineUserConfig({
        * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
        */
       docsearch:{
-        appId: '581EUIWCRI',
-        apiKey: '56741723b251595dab5a9e6343a385cf',
+        appId: '5FYYWUK4F4',
+        apiKey: 'e6476b6808afeb8446c9cfd429df36ea',
         indexName: 'git',
       },
       // docsearch: {
