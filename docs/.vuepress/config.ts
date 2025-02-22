@@ -90,7 +90,7 @@ export default defineUserConfig({
        * 启用此搜索需要将 本地搜索 search 设置为 false
        * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
        */
-      '@vuepress/plugin-docsearch@2.0.0-rc.73':{
+      '@vuepress/plugin-docsearch':{
         appId: '5FYYWUK4F4',
         apiKey: 'e6476b6808afeb8446c9cfd429df36ea',
         indexName: 'github',
