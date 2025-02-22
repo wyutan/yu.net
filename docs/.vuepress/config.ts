@@ -65,11 +65,6 @@ export default defineUserConfig({
     // },
 
     plugins: {
-      docsearch:{
-        appId: '581EUIWCRI',
-        apiKey: '61f2ec0768a5f96ee678605d56e976d8',
-        indexName: 'git_x_cli_net',
-      },
       'vuepress-plugin-iconify': {
         size: '24px',  // 图标的默认大小
         color: '#42b983',  // 图标的默认颜色
@@ -88,13 +83,18 @@ export default defineUserConfig({
       },
 
       /* 本地搜索, 默认启用 */
-      // search: true,
+      search: false,
 
       /**
        * Algolia DocSearch
        * 启用此搜索需要将 本地搜索 search 设置为 false
        * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
        */
+      docsearch:{
+        appId: '581EUIWCRI',
+        apiKey: '61f2ec0768a5f96ee678605d56e976d8',
+        indexName: 'git_x_cli_net',
+      },
       // docsearch: {
       //   appId: '',
       //   apiKey: '',
