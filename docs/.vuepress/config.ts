@@ -66,8 +66,8 @@ export default defineUserConfig({
 
     plugins: {
       docsearch:{
-        appId: '6L622T2ZNM',
-        apiKey: '4bf71d5515c62560f7fc8da2c2936688',
+        appId: '581EUIWCRI',
+        apiKey: 'bca7476a6151d3bbf482da4caef381ec',
         indexName: 'git-x-cli',
         locales: {
           "/": {
