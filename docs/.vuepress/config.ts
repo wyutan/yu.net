@@ -92,7 +92,7 @@ export default defineUserConfig({
        */
       docsearch:{
         appId: '581EUIWCRI',
-        apiKey: '61f2ec0768a5f96ee678605d56e976d8',
+        apiKey: '915aa75d68118677eaab2b00b0c2e068',
         indexName: 'git_x_cli_net',
       },
       // docsearch: {
