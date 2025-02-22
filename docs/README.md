@@ -19,6 +19,10 @@ config:
           theme: brand
           text: linux →
           link: /os/linux/
+        -
+          theme: brand
+          text: yaml →
+          link: /yaml/          
           
         #-
           #theme: alt
