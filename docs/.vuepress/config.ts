@@ -285,11 +285,11 @@ export default defineUserConfig({
        * 启用此搜索需要将 本地搜索 search 设置为 false
        * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
        */
-      docsearch:{
-        appId: '5FYYWUK4F4',
-        apiKey: 'e6476b6808afeb8446c9cfd429df36ea',
-        indexName: 'git',
-      },
+      //docsearch:{
+        //appId: '5FYYWUK4F4',
+        //apiKey: 'e6476b6808afeb8446c9cfd429df36ea',
+        //indexName: 'git',
+      //},
       // docsearch: {
       //   appId: '',
       //   apiKey: '',
