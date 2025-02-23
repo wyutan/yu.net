@@ -90,20 +90,11 @@ export default defineUserConfig({
        * 启用此搜索需要将 本地搜索 search 设置为 false
        * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
        */
-      //docsearch: {
-        //appId: '5FYYWUK4F4',
-        //apiKey: 'e6476b6808afeb8446c9cfd429df36ea',
-        //indexName: 'github',
-      //},
-      docsearchPlugin({
+      docsearch: {
         appId: '5FYYWUK4F4',
         apiKey: 'e6476b6808afeb8446c9cfd429df36ea',
         indexName: 'github',
-        locales: {
-          '/': { placeholder: 'Search Documentation', translations: { button: { buttonText: 'Search Documentation', }, }, },
-          '/zh/': { placeholder: '搜索文档', translations: { button: { buttonText: '搜索文档', }, }, },
-        },
-    }),
+      },
 
       /* 文章字数统计、阅读时间，设置为 false 则禁用 */
       // readingTime: true,
