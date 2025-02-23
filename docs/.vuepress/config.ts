@@ -91,11 +91,11 @@ export default defineUserConfig({
        * 启用此搜索需要将 本地搜索 search 设置为 false
        * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
        */
-      docsearch: {
+      docsearchPlugin: {
         appId: '5FYYWUK4F4',
         apiKey: 'e6476b6808afeb8446c9cfd429df36ea',
         indexName: 'github',
-      },
+      },      
 
       /* 文章字数统计、阅读时间，设置为 false 则禁用 */
       // readingTime: true,
