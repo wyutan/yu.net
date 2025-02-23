@@ -95,11 +95,6 @@ export default defineUserConfig({
         apiKey: 'e6476b6808afeb8446c9cfd429df36ea',
         indexName: 'github',
       },
-      // docsearch: {
-      //   appId: '',
-      //   apiKey: '',
-      //   indexName: '',
-      // },
 
       /* 文章字数统计、阅读时间，设置为 false 则禁用 */
       // readingTime: true,
