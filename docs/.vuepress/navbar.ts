@@ -25,9 +25,9 @@ export const navbar = defineNavbarConfig([
     icon: 'carbon:container-services',
     items: [
       { text: 'docker', icon: 'logos:docker-icon', link: '/容器/docker/', },
+      { text: 'k8s', icon: '', link: '/容器/k8s/', },
     ]
   },
-  { text: 'yaml', icon: 'file-icons:yaml-alt2',  link: '/yaml/', },
   { text: '疑难杂症', icon: 'icon-park-outline:thinking-problem',  link: '/疑难杂症/疑难杂症.md', },
   { text: '关于', icon: 'clarity:heart-line',  link: '/about/', },
 ])
