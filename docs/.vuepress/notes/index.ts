@@ -1,8 +1,7 @@
 import { defineNotesConfig } from 'vuepress-theme-plume'
 import network from './network.ts'
 import linux from './os/linux.ts'
-import docker from './容器/docker.ts'
-import k8s from './容器/k8s.ts'
+import 容器 from './容器.ts'
 import about from './about'
 
 export default defineNotesConfig({
@@ -13,7 +12,7 @@ export default defineNotesConfig({
   notes: [
     network,
     linux,
-    docker,
+    容器,
     k8s,
     about,
   ]
