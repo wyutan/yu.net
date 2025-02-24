@@ -3,7 +3,7 @@ import protocol from './network/protocol.ts'
 import template from './network/template.ts'
 import linux from './os/linux.ts'
 import docker from './容器/docker.ts'
-import k8s from './容器/k8s.ts
+import k8s from './容器/k8s.ts'
 import about from './about'
 
 export default defineNotesConfig({
