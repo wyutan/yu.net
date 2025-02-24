@@ -34,7 +34,10 @@ jobs:
       # Install dependencies
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
-
+      
+      # 升级
+      - name: Build VuePress site
+        run: pnpm dlx vp-update
 
       # 运行构建脚本
       # Run the build script
