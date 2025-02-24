@@ -1,3 +1,4 @@
+ ```yaml
 # Source: eck-operator/templates/operator-namespace.yaml
 apiVersion: v1
 kind: Namespace
