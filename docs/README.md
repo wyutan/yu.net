@@ -21,10 +21,6 @@ config:
           link: /os/linux/
         -
           theme: brand
-          text: yaml →
-          link: /yaml/
-        -
-          theme: brand
           text: docker →
           link: /容器/docker/               
         #-
