@@ -8,10 +8,7 @@ export default defineNoteConfig({
     {
       prefix: '/yaml',
       text: 'yaml',
-      items: [
-        { text: 'mysql', link: 'mysql', },
-        { text: 'zabbix', link: 'zabbix', },
-       ]
+      items: 'auto',
     },  
   ],
 })
