@@ -13,7 +13,6 @@ export default defineNotesConfig({
     network,
     linux,
     容器,
-    k8s,
     about,
   ]
 })
