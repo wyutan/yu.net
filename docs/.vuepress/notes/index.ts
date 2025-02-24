@@ -1,6 +1,5 @@
 import { defineNotesConfig } from 'vuepress-theme-plume'
-import protocol from './network/protocol.ts'
-import template from './network/template.ts'
+import network from './network.ts'
 import linux from './os/linux.ts'
 import docker from './容器/docker.ts'
 import k8s from './容器/k8s.ts'
@@ -12,8 +11,7 @@ export default defineNotesConfig({
   link: '/',
   // 在这里添加 note 配置
   notes: [
-    protocol,
-    template,
+    network,
     linux,
     docker,
     k8s,
