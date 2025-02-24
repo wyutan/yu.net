@@ -22,7 +22,7 @@ config:
         -
           theme: brand
           text: docker →
-          link: /容器/docker/               
+          link: /容器/              
         #-
           #theme: alt
           #text: connection →
