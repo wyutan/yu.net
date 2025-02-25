@@ -6,7 +6,7 @@ export default defineNoteConfig({
   sidebar: [
     {text: '配置模板', prefix: 'template', collapsed: false, items: 'auto', },
   ],
-})
+}),
 
 export default defineNoteConfig({
   dir: '/network/',
