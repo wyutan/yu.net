@@ -1,6 +1,6 @@
 import { defineNotesConfig } from 'vuepress-theme-plume'
 import network from './network.ts'
-import linux from './os/linux.ts'
+import linux from './linux.ts'
 import 容器 from './容器.ts'
 import about from './about'
 
