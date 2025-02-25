@@ -1,5 +1,5 @@
 ---
-title: 网络
+title: 网络基础
 ---
 网络协议、交换机配置模板
 - [网络协议](javascript:void(0))
