@@ -8,11 +8,7 @@ export const navbar = defineNavbarConfig([
   {  
     text: '网络',
     icon: 'lucide:network',
-    //link: '/network/',
-    items: [
-      { text: '配置模板', link: '/network/template/, '},
-      { text: 'protocol', link: '/network/protocol/', },
-    ]
+    link: '/network/',
   },
   {
     text: 'os',
