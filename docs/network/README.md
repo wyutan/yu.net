@@ -2,7 +2,7 @@
 title: 网络基础
 ---
 网络协议、交换机配置模板
-- [网络协议](javascript:void(0))
+- [网络协议]
     - [ospf](./protocol/1.ospf.md)
     - [bgp](./protocol/2.bgp.md)
     - [ospf](./protocol/3.stp.md)
