@@ -5,7 +5,15 @@ export const navbar = defineNavbarConfig([
   //{ text: '博客', link: '/blog/' },
   //{ text: '标签', link: '/blog/tags/' },
   //{ text: '归档', link: '/blog/archives/' },
-  {  text: '网络', icon: 'lucide:network', link: '/network/', },
+  {  
+    text: '网络',
+    icon: 'lucide:network',
+    //link: '/network/',
+    items: [
+      { text: '配置模板', link: '/network/template/, '},
+      { text: 'protocol', link: '/network/protocol/', },
+    ]
+  },
   {
     text: 'os',
     icon: 'ix:operating-system',
