@@ -7,6 +7,6 @@ docker学习笔记、k8s学习笔记、k8s部署的yaml
   - [docker配置GPU](./docker/2.docker配置GPU.md)
 - k8s
   - yaml文件
-    - [mysql](./k8s/1.mysql.yaml)
-    - [zabbix](./k8s/2.zaabix.yaml)
-    - [elk](./k8s/3.elk.yaml)
+    - [mysql](./k8s/yaml/1.mysql.yaml)
+    - [zabbix](./k8s/yaml/2.zaabix.yaml)
+    - [elk](./k8s/yaml/3.elk.yaml)
