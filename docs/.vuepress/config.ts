@@ -142,7 +142,7 @@ export default defineUserConfig({
        * 在 Markdown 文件中导入其他 markdown 文件内容。
        * @see https://theme-plume.vuejs.press/guide/markdown/include/
        */
-      // markdownInclude: true,
+      markdownInclude: true,
 
       /**
        * Markdown 数学公式
