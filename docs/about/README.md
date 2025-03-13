@@ -10,10 +10,4 @@ title: 关于
 
 2023.5-至今
 ## 证书
-CCIE R&S
-
-RHCE
-
-CKA
-
-PMP
+CCIE R&S、RHCE、CKA、PMP
