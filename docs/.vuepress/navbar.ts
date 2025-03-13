@@ -15,5 +15,5 @@ export const navbar = defineNavbarConfig([
   }, 
   { text: '容器', icon: 'carbon:container-services', link: '/容器/', },
   { text: '疑难杂症', icon: 'icon-park-outline:thinking-problem',  link: '/疑难杂症/疑难杂症.md', },
-  { text: '关于', icon: 'clarity:heart-line',  link: '/about/README.md', },
+  { text: '关于', icon: 'clarity:heart-line',  link: '/about/', },
 ])
