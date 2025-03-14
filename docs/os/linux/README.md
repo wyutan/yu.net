@@ -1,5 +1,7 @@
 ---
 title: linux基础
+permalink: /linux-base/
+---
 ---
 常用功能及命令
 - 常用
