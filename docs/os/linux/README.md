@@ -7,6 +7,7 @@ title: linux基础
     - [重置RHEL密码](./常用/1.重置RHEL密码.md)
     - [lvm](./常用/2.LVM.md)
     - [免密登录](./常用/3.免密登录.md)
+    - [自动登录](./常用/4.开机自动登录.md)
 - command
     - [vim](./command/1.vim.md)
     - [find](./command/2.find.md)
