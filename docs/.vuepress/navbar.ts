@@ -11,6 +11,7 @@ export const navbar = defineNavbarConfig([
     icon: 'ix:operating-system',
     items: [
       { text: 'linux', icon: 'skill-icons:linux-light', link: '/os/linux/', },
+      { text: '云计算', icon: 'uil:cloud-computing', link: '/os/cloud/', },
     ]
   }, 
   { text: '容器', icon: 'carbon:container-services', link: '/容器/', },
