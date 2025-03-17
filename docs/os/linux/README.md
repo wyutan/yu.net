@@ -3,6 +3,9 @@ title: linux基础
 ---
 ---
 常用功能及命令
+- 笔记
+    - [nfs、ftp、samba区别](./note/1.nfs 、ftp 和samba区别.md)
+    - [linux双网卡](./note/2.linux双网卡.md)
 - 常用
     - [重置RHEL密码](./常用/1.重置RHEL密码.md)
     - [lvm](./常用/2.LVM.md)
