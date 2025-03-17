@@ -1,7 +1,6 @@
 ---
 title: linux基础
 ---
----
 常用功能及命令
 - 笔记
     - [nfs、ftp、samba区别](./note/1.nfs、ftp和samba区别.md)
