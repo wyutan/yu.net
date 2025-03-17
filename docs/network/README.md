@@ -1,6 +1,5 @@
 ---
 title: 网络基础
-permalink: /network-base/
 ---
 网络协议、交换机配置模板
 - 网络协议
