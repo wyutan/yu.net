@@ -7,5 +7,6 @@ export default defineNoteConfig({
     { text: 'linux学习笔记', link: '/os/linux/' },
     { text: 'linux命令', prefix: 'command', collapsed: false, items: 'auto', },
     { text: '常用功能', prefix: '常用', collapsed: false, items: 'auto', },
+    { text: '云计算笔记', link: '/os/cloud/' },
   ]
 })
