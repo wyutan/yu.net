@@ -8,5 +8,6 @@ export default defineNoteConfig({
     { text: 'linux笔记', prefix: 'note', collapsed: false, items: 'auto', },
     { text: 'linux命令', prefix: 'command', collapsed: false, items: 'auto', },
     { text: '常用功能', prefix: '常用', collapsed: false, items: 'auto', },
+    { text: '自动化运维', prefix: '自动化运维', collapsed: false, items: 'auto', },
   ]
 })
