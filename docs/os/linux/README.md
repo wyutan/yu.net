@@ -17,5 +17,5 @@ title: linux基础
     - [sed](./command/3.sed.md)
 - 自动化运维
     - [创建lvm](./自动化运维/1.创建lvm.md)
-    - [扩容lvm](./自动化运维/1.扩容lvm.md)
-    - [修改root密码](./自动化运维/1.修改root密码.md)
+    - [扩容lvm](./自动化运维/2.扩容lvm.md)
+    - [修改root密码](./自动化运维/3.修改root密码.md)
