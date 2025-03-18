@@ -15,3 +15,7 @@ title: linux基础
     - [vim](./command/1.vim.md)
     - [find](./command/2.find.md)
     - [sed](./command/3.sed.md)
+- 自动化运维
+    - [创建lvm](./自动化运维/1.创建lvm.md)
+    - [扩容lvm](./自动化运维/1.扩容lvm.md)
+  
