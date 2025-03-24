@@ -14,4 +14,4 @@ title: 关于
 - 2023.5-至今
 企业运维
 ## 证书
-CCIE R&S、RHCE、CKA、PMP
+CCIE R&S、PMP、CKA、RHCE
