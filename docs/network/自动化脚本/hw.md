@@ -1,6 +1,6 @@
 ```sh
 #!/bin/bash
-  
+
 # 定义交换机的连接信息
 switch_username="username"
 switch_password="password"
