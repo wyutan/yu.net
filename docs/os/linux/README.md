@@ -12,6 +12,7 @@ title: linux基础
     - [免密登录](./常用/3.免密登录.md)
     - [自动登录](./常用/4.开机自动登录.md)
     - [配置TFTP](./常用/5.配置TFTP.md)
+    - [ubuntu_p2v](./常用/6.ubuntu_p2v.md)
 - command
     - [vim](./command/1.vim.md)
     - [find](./command/2.find.md)
