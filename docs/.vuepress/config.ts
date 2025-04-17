@@ -37,7 +37,7 @@ export default defineUserConfig({
         }
       ]
     },
-    docsRepo: 'https://github.com/wyutan/yu.net',
+    docsRepo: 'https://github.com/wyutan/yu.net/',
     docsDir: 'docs',
     changelog: { maxCount: 10 },
     contributors: { mode: 'block' },
