@@ -29,6 +29,9 @@ export default defineUserConfig({
     // editLink: true,
     // lastUpdated: true,
     contributors: false,
+    docsRepo: 'https://github.com/wyutan/yu.net/',
+    docsDir: 'docs',
+    changelog: { maxCount: 10 },
 
     /**
      * 博客
