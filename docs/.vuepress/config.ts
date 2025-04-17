@@ -29,7 +29,7 @@ export default defineUserConfig({
     // editLink: true,
     // lastUpdated: true,
     contributors: { mode: 'block' },
-    docsRepo: 'https://github.com/wyutan/yu.net/',
+    docsRepo: 'https://github.com/wyutan/tanya/',
     docsDir: 'docs',
     changelog: { maxCount: 10 },
 
