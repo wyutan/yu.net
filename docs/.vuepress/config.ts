@@ -29,10 +29,6 @@ export default defineUserConfig({
     // editLink: true,
     // lastUpdated: true,
     contributors: false,
-    docsRepo: 'https://github.com/wyutan/yu.net/',
-    docsDir: 'docs',
-    changelog: { maxCount: 10 },
-    contributors: { mode: 'block' },
 
     /**
      * 博客
@@ -72,7 +68,7 @@ export default defineUserConfig({
         size: '24px',  // 图标的默认大小
         color: '#42b983',  // 图标的默认颜色
       },
-      { git: true },
+      // { git: true },
       /**
        * Shiki 代码高亮
        * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
