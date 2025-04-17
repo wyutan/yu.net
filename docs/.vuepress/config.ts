@@ -32,7 +32,7 @@ export default defineUserConfig({
       mode: 'block',
       info: [
         {
-          username: 'wyutan', // github username
+          username: 'tanya', // github username
           alias: ['tanya'], // 别名，本地 git 配置中的用户名
         }
       ]
