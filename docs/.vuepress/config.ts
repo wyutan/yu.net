@@ -29,13 +29,10 @@ export default defineUserConfig({
     // editLink: true,
     // lastUpdated: true,
     // contributors: true,
-    changelog: {
-      maxCount: 10,
-      repoUrl: 'https://github.com/wyutan/yu.net/',
-      commitUrlPattern: ':repo/commit/:hash',
-      issueUrlPattern: ':repo/issues/:issue',
-      tagUrlPattern: ':repo/releases/tag/:tag'
-    },
+    docsRepo: 'https://github.com/wyutan/yu.net',
+    docsDir: 'docs',
+    changelog: { maxCount: 10 },
+    contributors: { mode: 'block' },
 
     /**
      * 博客
