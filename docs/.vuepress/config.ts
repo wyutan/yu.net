@@ -28,15 +28,7 @@ export default defineUserConfig({
     /* 页内信息 */
     // editLink: true,
     // lastUpdated: true,
-    contributors: {
-      mode: 'block',
-      info: [
-        {
-          username: 'wyutan', // github username
-          alias: ['tanya'], // 别名，本地 git 配置中的用户名
-        }
-      ]
-    },
+    contributors: false,
     docsRepo: 'https://github.com/wyutan/yu.net/',
     docsDir: 'docs',
     changelog: { maxCount: 10 },
