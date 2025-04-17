@@ -26,10 +26,16 @@ export default defineUserConfig({
     // docsBranch: '',
 
     /* 页内信息 */
-    editLink: true,
-    lastUpdated: true,
-    contributors: true,
-    changelog: false,
+    // editLink: true,
+    // lastUpdated: true,
+    // contributors: true,
+    changelog: {
+      maxCount: 10,
+      repoUrl: 'https://github.com/wyutan/yu.net/',
+      commitUrlPattern: ':repo/commit/:hash',
+      issueUrlPattern: ':repo/issues/:issue',
+      tagUrlPattern: ':repo/releases/tag/:tag'
+    },
 
     /**
      * 博客
